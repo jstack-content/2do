@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+}
+
+body {
+  background: #eee;
+
+  &[data-theme="dark"] {
+    background: #222 !important;
+  }
+}
+
+button {
+  cursor: pointer;
+}
